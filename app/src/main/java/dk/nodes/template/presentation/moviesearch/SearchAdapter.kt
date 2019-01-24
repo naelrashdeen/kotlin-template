@@ -17,19 +17,29 @@ class SearchAdapter : RecyclerView.Adapter<SearchAdapter.SearchViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return searchResults.size
     }
 
     override fun onBindViewHolder(holder: SearchAdapter.SearchViewHolder, position: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val movie = searchResults[position]
+        holder.bind(movie)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SearchAdapter.SearchViewHolder {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        // 1: val view = LayoutInflater.from(parent.context).inflate(R.layout.item_movie, parent, false)
+        // 2: return SearchViewHolder(view)
     }
 
     inner class SearchViewHolder(view : View) : RecyclerView.ViewHolder(view) {
 
+        // private val movieTitleTextView = itemView.findViewById<Button>(R.id.movieTitleTextView)
+        // private val increaseCountBtn = itemView.findViewById<Button>(R.id.increaseCountBtn)
+
+        fun bind(movie: Movie) {
+            // set title on title textview on the parent view ^ view
+            // set image on imageview via glide
+            // movieTitleTextView.text = movie.title
+        }
     }
 
 }

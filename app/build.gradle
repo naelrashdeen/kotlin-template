@@ -55,6 +55,8 @@ android {
                     APP_NAME        : "KotlinTemplateStaging"
             ]
             buildConfigField "String", "API_URL", "\"https://jsonplaceholder.typicode.com\""
+
+            buildConfigField "String", "API_KEY", "\"4cb1eeab94f45affe2536f2c684a5c9e\""
         }
         production {
             dimension "default"
@@ -67,6 +69,7 @@ android {
                     APP_NAME        : "KotlinTemplate"
             ]
             buildConfigField "String", "API_URL", "\"https://jsonplaceholder.typicode.com\""
+            buildConfigField "String", "API_KEY", "\"4cb1eeab94f45affe2536f2c684a5c9e\""
         }
     }
 

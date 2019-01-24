@@ -19,11 +19,11 @@ interface SearchContract {
 
         fun setState(state : State)
 
-        fun setResults(searchResults: MutableList<Movie>)
+        fun setResults(searchResults: List<Movie>)
 
         fun onMovieClicked(movie : Movie)
 
-        fun showError(throwable : Throwable)
+        fun showError(msg: String)
 
     }
 
