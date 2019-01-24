@@ -7,4 +7,39 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--Dmi Theme Stuff-->
+    <style name="Movie"/>
+
+    <!-- Widget Styles -->
+    <style name="Movie.BottomNavigation">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="Movie.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <!-- Text Appearance -->
+
+    <style name="Movie.TextAppearance">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Movie.TextAppearance.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/textTitle</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+    </style>
+
+    <style name="Movie.TextAppearance.Body">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+    </style>
 </resources>

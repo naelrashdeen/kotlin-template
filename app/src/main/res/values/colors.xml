@@ -3,4 +3,33 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Base Colors-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blueMediumDark">#0C2D83</color>
+    <color name="blueMedium">#7587b7</color>
+
+    <!--Text Colors-->
+    <color name="textPrimary">@color/white</color>
+    <color name="textTitle">@color/blueMedium</color>
+    <color name="textHeader">#97a5c9</color>
+
+    <!--Divider Colors-->
+    <color name="divider_normal">#25ffffff</color>
+    <color name="divider_white_15">#25ffffff</color>
+
+    <!--Theme Colors-->
+    <color name="defaultBackground">@color/blueMediumDark</color>
+
+    <!--Graph Colors-->
+    <color name="graph_temperature_line">#ff5252</color>
+    <color name="graph_temperature_fill">#ffb5b5</color>
+
+    <color name="graph_precipitation_90">#7587b7</color>
+    <color name="graph_precipitation_50">#6dbff2</color>
+    <color name="graph_precipitation_10">#7587b7</color>
+
+    <color name="graph_wind_line">#16e1cc</color>
+    <color name="graph_wind_fill">#9ef2e9</color>
 </resources>
